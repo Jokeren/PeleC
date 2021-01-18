@@ -151,6 +151,7 @@ include $(AMREX_HOME)/Tools/GNUMake/Make.rules
 clean::
 	$(SILENT) $(RM) extern.f90
 	$(SILENT) $(RM) AMReX_buildInfo.cpp
+	$(SILENT) $(RM) *.qdrep *.sqlite
 
 #-----------------------------------------------------------------------------
 # for debugging.  To see the value of a Makefile variable,
